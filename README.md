@@ -1,15 +1,15 @@
 # Library-Management-System
-#📌 Project Overview
+# Project Overview
 This project involves the design and implementation of a relational database for a modern library. The goal was to create a robust backend structure that manages book inventory, member registrations, and loan transactions while ensuring data integrity and providing actionable insights through SQL analytics.
 
-#🛠️ Tech Stack
+# Tech Stack
 Database: MySQL / PostgreSQL (choose one)
 
 Language: SQL
 
 Tools: dbdiagram.io (for ERD)
 
-#🏗️ Database Schema (ERD)
+# Database Schema (ERD)
 The system is built on a normalized relational schema consisting of four primary tables:
 
 Authors: Stores author details.
@@ -20,7 +20,7 @@ Members: Manages library user information and join dates.
 
 Loans: Records transaction history, including loan and return dates.
 
-#🚀 Key SQL Features & Implementation
+# Key SQL Features & Implementation
 1. Data Integrity & Relationships
 Utilized Primary Keys and Foreign Keys to establish relationships between tables, preventing orphaned records and ensuring a "Single Source of Truth."
 
